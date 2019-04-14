@@ -1,0 +1,409 @@
+/* Responsive */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .content .breadcrumb li a {
+   
+    font-size: 1.5vw;
+}
+.content .breadcrumb li.active {
+    font-size: 1.5vw;}
+
+    .content .innercontent p {
+    font-size: 1.4vw;
+    line-height: 1.8vw;}
+
+    .content .innercontent h4 {
+   
+    font-size: 1.9vw;
+  
+}
+.content .iconcontent p {
+    color: #fff;
+    line-height: 1.6vw;
+    font-size: 1.1vw;
+}
+.header-area .search-dwn ul li a {
+    font-size: 1.1vw;
+}
+
+
+
+
+
+
+
+    .header-area .reg-btn {
+        margin-left: 20px;
+    }
+    
+    .header-bg {
+        background: #eeeeee;
+        padding: 18px 0;
+        margin-left: -90px;
+    }
+    
+    .header-menu-area .navbar-default .navbar-nav>li>a {
+        font-size: 16px;
+        padding: 24px 24px;
+    }
+    
+    .header-area .sign-btn a, .header-area .reg-btn a {
+        padding: 7px 11px;
+    }
+    
+    .header-area .search-dwn ul li a {
+        font-size: 9px;
+    }
+    .contact-app {
+        margin-top: -60px;
+        margin-left: 350px;
+        margin-bottom: 45px;
+    }
+    .contact-app img {
+        max-width: 50%;
+    }
+
+    .footer-top li {
+        padding-bottom: 2px;
+        
+    }
+    
+    .footer-top li {
+        font-size: 10px;
+    }
+
+    .footer-social {
+        text-align: center;
+        padding: 15px 0 10px 0;
+    }
+    .subdcription-form h6 {
+        margin-bottom: 10px;
+    }
+    
+    .copy-right {
+        padding: 10px 0 10px 0;
+    }
+}
+
+/* Medium Devices, Tablet, Mobile */    
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-bg {
+        padding: 15px 0;
+    }
+    
+    .header-bg {
+        padding-left: 26px;
+    }
+    
+    .sign-btn i {
+        display: none;
+    }
+    .header-area .sign-btn a, .header-area .reg-btn a {
+        padding: 7px 12px;
+    }
+    .header-area .serch-from {
+        padding-top: 7px;
+    }
+    .header-area .serch-from input[type='search'] {
+        padding: 5px 10px;
+    }
+    
+    .header-area .search-dwn ul li a {
+        font-size: 7px;
+    }
+    
+    .header-area .serch-from a {
+        padding: 5px 0;
+        font-size: 14px;
+    }
+    .header-menu-area .navbar-default .navbar-nav>li>a {
+        font-size: 14px;
+        padding: 20px 15px;
+    }
+    .footer-top li {
+        line-height: 30px;
+        font-size: 9px;
+    }
+    .contact-app {
+        width: 100%;
+        margin-left: -42px;
+    }
+    .contact-app img {
+        max-width: 35%;
+        margin-top: 30px;
+        margin-left: 253px;
+        margin-bottom: 45px;
+    }
+    
+    .subdcription-form h6 {
+        font-size: 11px;
+    }
+    
+    .subdcription-form .form-control {
+        margin-bottom: 7px;
+        padding: 15px;
+    }
+    .footer-social {
+        padding: 10px;
+    }
+    .footer-social i {
+        margin-right: 5px;
+    }
+    .copy-right {
+        padding: 10px;
+    }
+    .copy-right h4 {
+        font-size: 14px;
+        margin-bottom: 7px;
+    }
+
+}
+
+        
+@media only screen and (min-width: 426px) and (max-width: 767px) {
+    .header-menu-area .navbar-nav>li {
+    
+    display: block;
+   
+}
+
+    .banner-area {
+        min-height: 180px;
+    }
+    .header-bg {
+        padding: 10px 0;
+    }
+    
+    header.header-area {
+        text-align: center;
+    }
+    .top-btn {
+        margin: 15px;
+    }
+    .header-area .serch-from input[type='search'] {
+        padding: 5px 10px;
+    }
+    .header-area .serch-from a {
+        padding: 5px 0;
+        font-size: 14px;
+    }
+    .header-menu-area .navbar-default .navbar-nav>li>a {
+        font-size: 12px;
+        padding: 8px 0;
+    }
+    .footer-top li {
+        padding-bottom: 5px;
+    }
+    
+    ul.web-service,
+    .About-Us,
+    .Contact-Us{
+        margin-bottom: 10px;
+    }
+    
+    .contact-app {
+        margin-left: 0;
+        margin-top: -25px;
+    }
+    
+    .contact-app img {
+       /* max-width: 81%;*/
+        margin-top: 45px;
+        margin-bottom: 30px;
+    }
+    
+    .subdcription-form .form-control {
+        margin-bottom: 7px;
+        padding: 15px;
+        height: 45px;
+        margin-left: 0px;
+    }
+    
+    .subdcription-form button.btn.btn-default.btn-block {
+        margin-left: 0px;
+    }
+    
+    .footer-social {
+        padding: 10px;
+    }
+    .footer-social i {
+        margin-right: 5px;
+    }
+    .copy-right {
+        padding: 10px;
+    }
+    .copy-right h4 {
+        font-size: 14px;
+        margin-bottom: 7px;
+    }
+}
+
+        
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+     .banner-area {
+        min-height: 120px;
+    }
+    .header-menu-area .navbar-nav>li {
+    
+    display: block;
+   
+}
+    
+    .header-bg {
+        padding: 10px 0;
+        margin-left: -9px;
+    }
+
+    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+        margin-right: 0px;}
+    
+    header.header-area {
+        text-align: center;
+    }
+    .top-btn {
+        margin: 15px;
+    }
+    .header-area .serch-from input[type='search'] {
+        padding: 5px 10px;
+    }
+    .header-area .serch-from a {
+        padding: 5px 0;
+        font-size: 14px;
+    }
+    .header-menu-area .navbar-default .navbar-nav>li>a {
+        font-size: 12px;
+        padding: 8px 0;
+    }
+    .footer-top li {
+        padding-bottom: 5px;
+    }
+    
+    ul.web-service,
+    .About-Us,
+    .Contact-Us{
+        margin-bottom: 10px;
+    }
+    .contact-app {
+        margin-left: 0;
+        margin-top: -25px;
+    }
+    
+    .contact-app img {
+        max-width: 81%;
+        margin-top: 45px;
+        margin-bottom: 30px;
+    }
+    .subdcription-form .form-control {
+        margin-bottom: 7px;
+        padding: 15px;
+        height: 45px;
+        /*margin-left: -10px;*/
+    }
+    
+    form.subdcription-form {
+        text-align: center;
+        padding: 1em 2em;
+    }
+    .subdcription-form button.btn.btn-default.btn-block {
+        margin-left: -10px;
+    }
+    
+    .footer-social {
+        padding: 10px;
+    }
+    .footer-social i {
+        margin-right: 5px;
+    }
+    .copy-right {
+        padding: 10px;
+    }
+    .copy-right h4 {
+        font-size: 10px;
+        margin-bottom: 7px;
+    }
+}
+      
+@media only screen and (min-width: 0px) and (max-width: 319px) {
+    .banner-area {
+        min-height: 120px;
+    }
+    .header-menu-area .navbar-nav>li {
+    
+    display: block;
+   
+}
+    
+    .header-bg {
+        padding: 10px 0;
+        margin-left: -9px;
+    }
+
+    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+        margin-right: 0px;}
+    
+    header.header-area {
+        text-align: center;
+    }
+    .top-btn {
+        margin: 15px;
+    }
+    .header-area .serch-from input[type='search'] {
+        padding: 5px 10px;
+    }
+    .header-area .serch-from a {
+        padding: 5px 0;
+        font-size: 14px;
+    }
+    .header-menu-area .navbar-default .navbar-nav>li>a {
+        font-size: 12px;
+        padding: 8px 0;
+    }
+    .footer-top li {
+        padding-bottom: 5px;
+    }
+    
+    ul.web-service,
+    .About-Us,
+    .Contact-Us{
+        margin-bottom: 10px;
+    }
+    .contact-app {
+        margin-left: 0;
+        margin-top: -25px;
+    }
+    
+    .contact-app img {
+        max-width: 81%;
+        margin-top: 45px;
+        margin-bottom: 30px;
+    }
+    .subdcription-form .form-control {
+        margin-bottom: 7px;
+        padding: 15px;
+        height: 45px;
+        margin-left: -10px;
+    }
+    
+    form.subdcription-form {
+        text-align: center;
+        margin-left: 20px;
+    }
+    .subdcription-form button.btn.btn-default.btn-block {
+        margin-left: -10px;
+    }
+    
+    .footer-social {
+        padding: 10px;
+    }
+    .footer-social i {
+        margin-right: 5px;
+    }
+    .copy-right {
+        padding: 10px;
+    }
+    .copy-right h4 {
+        font-size: 10px;
+        margin-bottom: 7px;
+    }
+}
+   
